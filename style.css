@@ -1,0 +1,100 @@
+/* Define o estilo do corpo da página */
+body {
+    background-image: url(img/meu-css.gif); /* Define a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    max-width: 1200px; /* Define a largura máxima */
+    margin: 250px auto; /* Centraliza o conteúdo horizontalmente */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+    backdrop-filter: blur(5px);
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+/* Estiliza o título principal (h1) */
+h1 {
+    color: #fefefe; /* Cor clara para contraste com o fundo */
+    font-size: 80px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.9);
+    
+    
+}
+
+/* Estiliza o campo de entrada de texto (input) */
+input {
+    height: 50px; /* Define a altura do campo de entrada */
+    width: 60%; /* Define a largura do campo de entrada */
+    border: 2px solid #fefefe; /* Borda clara para contraste */
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente preto */
+    outline: none; /* Remove o contorno padrão ao focar */
+    color: #fefefe; /* Cor do texto do campo de entrada */
+    font-size: 20px; /* Define o tamanho da fonte do texto */
+    padding: 0 10px; /* Espaçamento interno à esquerda e direita */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-left: 155px;
+}
+
+/* Estiliza o botão */
+button {
+    border: none; /* Remove a borda padrão do botão */
+    height: 55px; /* Define a altura do botão */
+    width: 150px; /* Define a largura do botão */
+    background-color: #ffcc00; /* Cor de fundo amarelo */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
+    font-size: 20px; /* Define o tamanho da fonte do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estiliza o botão quando o cursor está sobre ele */
+button:hover {
+    background-color: #ffdd33; /* Amarelo um pouco mais claro */
+}
+
+/* Estiliza o botão quando ele é clicado */
+button:active {
+    background-color: #ffcc00; /* Retorna para a cor original ao ser clicado */
+}
+
+/* Estiliza a lista não ordenada (ul) */
+ul {
+    padding: 0; /* Remove o padding da lista */
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+
+/* Estiliza os itens da lista (li) */
+li {
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px auto; /* Centraliza horizontalmente e adiciona espaçamento vertical */
+    border-radius: 5px; /* Bordas arredondadas */
+    color: #333; /* Cor do texto escura para contraste */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Ajusta a largura para ocupar o espaço disponível */
+    max-width: 900px; /* Define uma largura máxima para o item da lista */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura total */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse o contêiner */
+    text-overflow: ellipsis; /* Adiciona reticências (...) ao final do texto se ele for longo demais */
+    white-space: nowrap; /* Impede a quebra de linha, garantindo que o texto seja exibido em uma única linha */
+    
+    display: flex; /* Usa flexbox para alinhamento */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens horizontalmente */
+}
+
+
+
+
+li:hover {
+    background-color: #ffdd33; /* Amarelo um pouco mais claro */
+}   
+/* Estiliza o span dentro da lista */
+span {
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+    color: #ff0000; /* Cor do ícone de remoção (X) em vermelho */
+}
