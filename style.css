@@ -81,6 +81,7 @@ li {
     overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse o contêiner */
     text-overflow: ellipsis; /* Adiciona reticências (...) ao final do texto se ele for longo demais */
     white-space: nowrap; /* Impede a quebra de linha, garantindo que o texto seja exibido em uma única linha */
+    font-size: 25px;
     
     display: flex; /* Usa flexbox para alinhamento */
     align-items: center; /* Alinha itens verticalmente ao centro */
